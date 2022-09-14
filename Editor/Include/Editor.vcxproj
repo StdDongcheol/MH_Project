@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{1510da17-b58f-438d-aee8-eb5a08803b38}</ProjectGuid>
+    <RootNamespace>Editor</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <EnableUnitySupport>true</EnableUnitySupport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <EnableUnitySupport>true</EnableUnitySupport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <EnableUnitySupport>true</EnableUnitySupport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <EnableUnitySupport>true</EnableUnitySupport>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>../Bin/</OutDir>
+    <IntDir>../BinObj/</IntDir>
+    <IncludePath>../../Engine/Include/;$(IncludePath)</IncludePath>
+    <LibraryPath>../Bin/;$(LibraryPath)</LibraryPath>
+    <TargetName>$(ProjectName)_Debug</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>../Bin/</OutDir>
+    <IntDir>../BinObj/</IntDir>
+    <IncludePath>../../Engine/Include/;$(IncludePath)</IncludePath>
+    <LibraryPath>../Bin/;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>../Bin/</OutDir>
+    <IntDir>../BinObj/</IntDir>
+    <IncludePath>../../Engine/Include/;$(IncludePath)</IncludePath>
+    <LibraryPath>../Bin/;$(LibraryPath)</LibraryPath>
+    <TargetName>$(ProjectName)_Debug</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>../Bin/</OutDir>
+    <IntDir>../BinObj/</IntDir>
+    <IncludePath>../../Engine/Include/;$(IncludePath)</IncludePath>
+    <LibraryPath>../Bin/;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <DisableSpecificWarnings>26812;26451;6029;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <DisableSpecificWarnings>26812;26451;6029;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <DisableSpecificWarnings>26812;26451;6029;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <DisableSpecificWarnings>26812;26451;6029;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="EditorManager.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Object\Camera\FlightCamera.cpp" />
+    <ClCompile Include="Object\FieldObj\BigTree.cpp" />
+    <ClCompile Include="Object\FieldObj\Box1.cpp" />
+    <ClCompile Include="Object\FieldObj\BrokenTree1.cpp" />
+    <ClCompile Include="Object\FieldObj\BrokenTree2.cpp" />
+    <ClCompile Include="Object\FieldObj\BrokenTree3.cpp" />
+    <ClCompile Include="Object\FieldObj\DesertBigStone.cpp" />
+    <ClCompile Include="Object\FieldObj\DesertMountain1.cpp" />
+    <ClCompile Include="Object\FieldObj\DesertMountain2.cpp" />
+    <ClCompile Include="Object\FieldObj\DesertPebble.cpp" />
+    <ClCompile Include="Object\FieldObj\DesertRockWall.cpp" />
+    <ClCompile Include="Object\FieldObj\DesertSmallStone.cpp" />
+    <ClCompile Include="Object\FieldObj\DesertStalactite1.cpp" />
+    <ClCompile Include="Object\FieldObj\DesertStalactite2.cpp" />
+    <ClCompile Include="Object\FieldObj\DesertStalactite3.cpp" />
+    <ClCompile Include="Object\FieldObj\DesertStalactite4.cpp" />
+    <ClCompile Include="Object\FieldObj\DesertStalagmite1.cpp" />
+    <ClCompile Include="Object\FieldObj\DesertStalagmite2.cpp" />
+    <ClCompile Include="Object\FieldObj\DesertStalagmite3.cpp" />
+    <ClCompile Include="Object\FieldObj\DesertStone1.cpp" />
+    <ClCompile Include="Object\FieldObj\DesertStone2.cpp" />
+    <ClCompile Include="Object\FieldObj\DesertStone3.cpp" />
+    <ClCompile Include="Object\FieldObj\DesertStone4.cpp" />
+    <ClCompile Include="Object\FieldObj\DesertStone5.cpp" />
+    <ClCompile Include="Object\FieldObj\DesertStone6.cpp" />
+    <ClCompile Include="Object\FieldObj\Far.cpp" />
+    <ClCompile Include="Object\FieldObj\Grass1.cpp" />
+    <ClCompile Include="Object\FieldObj\Grass2.cpp" />
+    <ClCompile Include="Object\FieldObj\Grass3.cpp" />
+    <ClCompile Include="Object\FieldObj\Grass4.cpp" />
+    <ClCompile Include="Object\FieldObj\Grass5.cpp" />
+    <ClCompile Include="Object\FieldObj\Grass6.cpp" />
+    <ClCompile Include="Object\FieldObj\Grass7.cpp" />
+    <ClCompile Include="Object\FieldObj\Grass8.cpp" />
+    <ClCompile Include="Object\FieldObj\Grass9.cpp" />
+    <ClCompile Include="Object\FieldObj\GrassRock1.cpp" />
+    <ClCompile Include="Object\FieldObj\GrassRock2.cpp" />
+    <ClCompile Include="Object\FieldObj\GrassRock3.cpp" />
+    <ClCompile Include="Object\FieldObj\GrassRock4.cpp" />
+    <ClCompile Include="Object\FieldObj\GrassRock5.cpp" />
+    <ClCompile Include="Object\FieldObj\GrassRock6.cpp" />
+    <ClCompile Include="Object\FieldObj\GrassRock7.cpp" />
+    <ClCompile Include="Object\FieldObj\GrassRock8.cpp" />
+    <ClCompile Include="Object\FieldObj\GrassRock9.cpp" />
+    <ClCompile Include="Object\FieldObj\HealFlower.cpp" />
+    <ClCompile Include="Object\FieldObj\MushRoom1.cpp" />
+    <ClCompile Include="Object\FieldObj\MushRoom2.cpp" />
+    <ClCompile Include="Object\FieldObj\MushRoom3.cpp" />
+    <ClCompile Include="Object\FieldObj\Precipice.cpp" />
+    <ClCompile Include="Object\FieldObj\Precipice2.cpp" />
+    <ClCompile Include="Object\FieldObj\Sculpture.cpp" />
+    <ClCompile Include="Object\FieldObj\SlidingBox.cpp" />
+    <ClCompile Include="Object\FieldObj\SmallGrass.cpp" />
+    <ClCompile Include="Object\FieldObj\SmallStone1.cpp" />
+    <ClCompile Include="Object\FieldObj\SmallTree1.cpp" />
+    <ClCompile Include="Object\FieldObj\SmallTree2.cpp" />
+    <ClCompile Include="Object\FieldObj\SmallTree3.cpp" />
+    <ClCompile Include="Object\FieldObj\SmallTree4.cpp" />
+    <ClCompile Include="Object\FieldObj\SmallTree5.cpp" />
+    <ClCompile Include="Object\FieldObj\Stonej1.cpp" />
+    <ClCompile Include="Object\FieldObj\Stonej10.cpp" />
+    <ClCompile Include="Object\FieldObj\Stonej11.cpp" />
+    <ClCompile Include="Object\FieldObj\Stonej12.cpp" />
+    <ClCompile Include="Object\FieldObj\Stonej13.cpp" />
+    <ClCompile Include="Object\FieldObj\Stonej14.cpp" />
+    <ClCompile Include="Object\FieldObj\Stonej15.cpp" />
+    <ClCompile Include="Object\FieldObj\Stonej16.cpp" />
+    <ClCompile Include="Object\FieldObj\Stonej17.cpp" />
+    <ClCompile Include="Object\FieldObj\Stonej18.cpp" />
+    <ClCompile Include="Object\FieldObj\Stonej19.cpp" />
+    <ClCompile Include="Object\FieldObj\Stonej2.cpp" />
+    <ClCompile Include="Object\FieldObj\Stonej20.cpp" />
+    <ClCompile Include="Object\FieldObj\Stonej21.cpp" />
+    <ClCompile Include="Object\FieldObj\Stonej22.cpp" />
+    <ClCompile Include="Object\FieldObj\Stonej23.cpp" />
+    <ClCompile Include="Object\FieldObj\Stonej24.cpp" />
+    <ClCompile Include="Object\FieldObj\Stonej25.cpp" />
+    <ClCompile Include="Object\FieldObj\Stonej26.cpp" />
+    <ClCompile Include="Object\FieldObj\Stonej27.cpp" />
+    <ClCompile Include="Object\FieldObj\Stonej28.cpp" />
+    <ClCompile Include="Object\FieldObj\Stonej29.cpp" />
+    <ClCompile Include="Object\FieldObj\Stonej3.cpp" />
+    <ClCompile Include="Object\FieldObj\Stonej30.cpp" />
+    <ClCompile Include="Object\FieldObj\Stonej31.cpp" />
+    <ClCompile Include="Object\FieldObj\Stonej32.cpp" />
+    <ClCompile Include="Object\FieldObj\Stonej33.cpp" />
+    <ClCompile Include="Object\FieldObj\Stonej34.cpp" />
+    <ClCompile Include="Object\FieldObj\Stonej35.cpp" />
+    <ClCompile Include="Object\FieldObj\Stonej36.cpp" />
+    <ClCompile Include="Object\FieldObj\Stonej37.cpp" />
+    <ClCompile Include="Object\FieldObj\Stonej4.cpp" />
+    <ClCompile Include="Object\FieldObj\Stonej5.cpp" />
+    <ClCompile Include="Object\FieldObj\Stonej6.cpp" />
+    <ClCompile Include="Object\FieldObj\Stonej7.cpp" />
+    <ClCompile Include="Object\FieldObj\Stonej8.cpp" />
+    <ClCompile Include="Object\FieldObj\Stonej9.cpp" />
+    <ClCompile Include="Object\FieldObj\Tent1.cpp" />
+    <ClCompile Include="Object\FieldObj\Tent2.cpp" />
+    <ClCompile Include="Object\FieldObj\TownBarrel.cpp" />
+    <ClCompile Include="Object\FieldObj\TownCarriage.cpp" />
+    <ClCompile Include="Object\FieldObj\TownCheckPoint.cpp" />
+    <ClCompile Include="Object\FieldObj\TownDragonHead.cpp" />
+    <ClCompile Include="Object\FieldObj\TownPassage.cpp" />
+    <ClCompile Include="Object\FieldObj\TownPumpkinMan.cpp" />
+    <ClCompile Include="Object\FieldObj\TownRampart.cpp" />
+    <ClCompile Include="Object\FieldObj\TownShadeScreen.cpp" />
+    <ClCompile Include="Object\FieldObj\TownSign.cpp" />
+    <ClCompile Include="Object\FieldObj\TownStructure.cpp" />
+    <ClCompile Include="Object\FieldObj\TownSummerHouse.cpp" />
+    <ClCompile Include="Object\FieldObj\TownTunnel.cpp" />
+    <ClCompile Include="Object\FieldObj\Tree1.cpp" />
+    <ClCompile Include="Object\FieldObj\Tree2.cpp" />
+    <ClCompile Include="Object\FieldObj\Tree3.cpp" />
+    <ClCompile Include="Object\FieldObj\Tree4.cpp" />
+    <ClCompile Include="Object\FieldObj\Tree5.cpp" />
+    <ClCompile Include="Object\FieldObj\Tree6.cpp" />
+    <ClCompile Include="Object\FieldObj\Tree7.cpp" />
+    <ClCompile Include="Object\FieldObj\Tree8.cpp" />
+    <ClCompile Include="Object\FieldObj\Tree9.cpp" />
+    <ClCompile Include="Object\FieldObj\Vine.cpp" />
+    <ClCompile Include="Object\FieldObj\Vine2.cpp" />
+    <ClCompile Include="Object\FieldObj\Vine3.cpp" />
+    <ClCompile Include="Object\FieldObj\Vine4.cpp" />
+    <ClCompile Include="Object\FieldObj\Vine5.cpp" />
+    <ClCompile Include="Object\FieldObj\Wreck1.cpp" />
+    <ClCompile Include="Object\LandScape\LandScapeObj.cpp" />
+    <ClCompile Include="Object\Monster\Anjanath.cpp" />
+    <ClCompile Include="Object\Monster\AnjanathAnimation.cpp" />
+    <ClCompile Include="Object\Monster\Barnos.cpp" />
+    <ClCompile Include="Object\Monster\BarnosAnimation.cpp" />
+    <ClCompile Include="Object\Monster\Jagras.cpp" />
+    <ClCompile Include="Object\Monster\JagrasAnimation.cpp" />
+    <ClCompile Include="Object\Monster\Kestodon.cpp" />
+    <ClCompile Include="Object\Monster\KestodonAnimation.cpp" />
+    <ClCompile Include="Object\Monster\Monster.cpp" />
+    <ClCompile Include="Object\Monster\Rathalos.cpp" />
+    <ClCompile Include="Object\Monster\RathalosAnimation.cpp" />
+    <ClCompile Include="Object\Monster\Vespoid.cpp" />
+    <ClCompile Include="Object\Monster\VespoidAnimation.cpp" />
+    <ClCompile Include="Object\Player\Player.cpp" />
+    <ClCompile Include="Object\Player\PlayerAnimation.cpp" />
+    <ClCompile Include="Scene\EditorScene.cpp" />
+    <ClCompile Include="Scene\EditorScene_FBX.cpp" />
+    <ClCompile Include="Scene\EditorScene_FieldObj.cpp" />
+    <ClCompile Include="Scene\EditorScene_LandScape.cpp" />
+    <ClCompile Include="Scene\EditorScene_Monster.cpp" />
+    <ClCompile Include="Scene\EditorScene_Player.cpp" />
+    <ClCompile Include="Window\AboutWindow.cpp" />
+    <ClCompile Include="Window\InfoWindow.cpp" />
+    <ClCompile Include="Window\ObjectWindow.cpp" />
+    <ClCompile Include="Window\HierarchyWindow.cpp" />
+    <ClCompile Include="Window\SceneWindow.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EditorManager.h" />
+    <ClInclude Include="Object\Camera\FlightCamera.h" />
+    <ClInclude Include="Object\FieldObj\BigTree.h" />
+    <ClInclude Include="Object\FieldObj\Box1.h" />
+    <ClInclude Include="Object\FieldObj\BrokenTree1.h" />
+    <ClInclude Include="Object\FieldObj\BrokenTree2.h" />
+    <ClInclude Include="Object\FieldObj\BrokenTree3.h" />
+    <ClInclude Include="Object\FieldObj\DesertBigStone.h" />
+    <ClInclude Include="Object\FieldObj\DesertMountain1.h" />
+    <ClInclude Include="Object\FieldObj\DesertMountain2.h" />
+    <ClInclude Include="Object\FieldObj\DesertPebble.h" />
+    <ClInclude Include="Object\FieldObj\DesertRockWall.h" />
+    <ClInclude Include="Object\FieldObj\DesertSmallStone.h" />
+    <ClInclude Include="Object\FieldObj\DesertStalactite1.h" />
+    <ClInclude Include="Object\FieldObj\DesertStalactite2.h" />
+    <ClInclude Include="Object\FieldObj\DesertStalactite3.h" />
+    <ClInclude Include="Object\FieldObj\DesertStalactite4.h" />
+    <ClInclude Include="Object\FieldObj\DesertStalagmite1.h" />
+    <ClInclude Include="Object\FieldObj\DesertStalagmite2.h" />
+    <ClInclude Include="Object\FieldObj\DesertStalagmite3.h" />
+    <ClInclude Include="Object\FieldObj\DesertStone1.h" />
+    <ClInclude Include="Object\FieldObj\DesertStone2.h" />
+    <ClInclude Include="Object\FieldObj\DesertStone3.h" />
+    <ClInclude Include="Object\FieldObj\DesertStone4.h" />
+    <ClInclude Include="Object\FieldObj\DesertStone5.h" />
+    <ClInclude Include="Object\FieldObj\DesertStone6.h" />
+    <ClInclude Include="Object\FieldObj\Far.h" />
+    <ClInclude Include="Object\FieldObj\Grass1.h" />
+    <ClInclude Include="Object\FieldObj\Grass2.h" />
+    <ClInclude Include="Object\FieldObj\Grass3.h" />
+    <ClInclude Include="Object\FieldObj\Grass4.h" />
+    <ClInclude Include="Object\FieldObj\Grass5.h" />
+    <ClInclude Include="Object\FieldObj\Grass6.h" />
+    <ClInclude Include="Object\FieldObj\Grass7.h" />
+    <ClInclude Include="Object\FieldObj\Grass8.h" />
+    <ClInclude Include="Object\FieldObj\Grass9.h" />
+    <ClInclude Include="Object\FieldObj\GrassRock1.h" />
+    <ClInclude Include="Object\FieldObj\GrassRock2.h" />
+    <ClInclude Include="Object\FieldObj\GrassRock3.h" />
+    <ClInclude Include="Object\FieldObj\GrassRock4.h" />
+    <ClInclude Include="Object\FieldObj\GrassRock5.h" />
+    <ClInclude Include="Object\FieldObj\GrassRock6.h" />
+    <ClInclude Include="Object\FieldObj\GrassRock7.h" />
+    <ClInclude Include="Object\FieldObj\GrassRock8.h" />
+    <ClInclude Include="Object\FieldObj\GrassRock9.h" />
+    <ClInclude Include="Object\FieldObj\HealFlower.h" />
+    <ClInclude Include="Object\FieldObj\MushRoom1.h" />
+    <ClInclude Include="Object\FieldObj\MushRoom2.h" />
+    <ClInclude Include="Object\FieldObj\MushRoom3.h" />
+    <ClInclude Include="Object\FieldObj\Precipice.h" />
+    <ClInclude Include="Object\FieldObj\Precipice2.h" />
+    <ClInclude Include="Object\FieldObj\Sculpture.h" />
+    <ClInclude Include="Object\FieldObj\SlidingBox.h" />
+    <ClInclude Include="Object\FieldObj\SmallGrass.h" />
+    <ClInclude Include="Object\FieldObj\SmallStone1.h" />
+    <ClInclude Include="Object\FieldObj\SmallTree1.h" />
+    <ClInclude Include="Object\FieldObj\SmallTree2.h" />
+    <ClInclude Include="Object\FieldObj\SmallTree3.h" />
+    <ClInclude Include="Object\FieldObj\SmallTree4.h" />
+    <ClInclude Include="Object\FieldObj\SmallTree5.h" />
+    <ClInclude Include="Object\FieldObj\Stonej1.h" />
+    <ClInclude Include="Object\FieldObj\Stonej10.h" />
+    <ClInclude Include="Object\FieldObj\Stonej11.h" />
+    <ClInclude Include="Object\FieldObj\Stonej12.h" />
+    <ClInclude Include="Object\FieldObj\Stonej13.h" />
+    <ClInclude Include="Object\FieldObj\Stonej14.h" />
+    <ClInclude Include="Object\FieldObj\Stonej15.h" />
+    <ClInclude Include="Object\FieldObj\Stonej16.h" />
+    <ClInclude Include="Object\FieldObj\Stonej17.h" />
+    <ClInclude Include="Object\FieldObj\Stonej18.h" />
+    <ClInclude Include="Object\FieldObj\Stonej19.h" />
+    <ClInclude Include="Object\FieldObj\Stonej2.h" />
+    <ClInclude Include="Object\FieldObj\Stonej20.h" />
+    <ClInclude Include="Object\FieldObj\Stonej21.h" />
+    <ClInclude Include="Object\FieldObj\Stonej22.h" />
+    <ClInclude Include="Object\FieldObj\Stonej23.h" />
+    <ClInclude Include="Object\FieldObj\Stonej24.h" />
+    <ClInclude Include="Object\FieldObj\Stonej25.h" />
+    <ClInclude Include="Object\FieldObj\Stonej26.h" />
+    <ClInclude Include="Object\FieldObj\Stonej27.h" />
+    <ClInclude Include="Object\FieldObj\Stonej28.h" />
+    <ClInclude Include="Object\FieldObj\Stonej29.h" />
+    <ClInclude Include="Object\FieldObj\Stonej3.h" />
+    <ClInclude Include="Object\FieldObj\Stonej30.h" />
+    <ClInclude Include="Object\FieldObj\Stonej31.h" />
+    <ClInclude Include="Object\FieldObj\Stonej32.h" />
+    <ClInclude Include="Object\FieldObj\Stonej33.h" />
+    <ClInclude Include="Object\FieldObj\Stonej34.h" />
+    <ClInclude Include="Object\FieldObj\Stonej35.h" />
+    <ClInclude Include="Object\FieldObj\Stonej36.h" />
+    <ClInclude Include="Object\FieldObj\Stonej37.h" />
+    <ClInclude Include="Object\FieldObj\Stonej4.h" />
+    <ClInclude Include="Object\FieldObj\Stonej5.h" />
+    <ClInclude Include="Object\FieldObj\Stonej6.h" />
+    <ClInclude Include="Object\FieldObj\Stonej7.h" />
+    <ClInclude Include="Object\FieldObj\Stonej8.h" />
+    <ClInclude Include="Object\FieldObj\Stonej9.h" />
+    <ClInclude Include="Object\FieldObj\Tent1.h" />
+    <ClInclude Include="Object\FieldObj\Tent2.h" />
+    <ClInclude Include="Object\FieldObj\TownBarrel.h" />
+    <ClInclude Include="Object\FieldObj\TownCarriage.h" />
+    <ClInclude Include="Object\FieldObj\TownCheckPoint.h" />
+    <ClInclude Include="Object\FieldObj\TownDragonHead.h" />
+    <ClInclude Include="Object\FieldObj\TownPassage.h" />
+    <ClInclude Include="Object\FieldObj\TownPumpkinMan.h" />
+    <ClInclude Include="Object\FieldObj\TownRampart.h" />
+    <ClInclude Include="Object\FieldObj\TownShadeScreen.h" />
+    <ClInclude Include="Object\FieldObj\TownSign.h" />
+    <ClInclude Include="Object\FieldObj\TownStructure.h" />
+    <ClInclude Include="Object\FieldObj\TownSummerHouse.h" />
+    <ClInclude Include="Object\FieldObj\TownTunnel.h" />
+    <ClInclude Include="Object\FieldObj\Tree1.h" />
+    <ClInclude Include="Object\FieldObj\Tree2.h" />
+    <ClInclude Include="Object\FieldObj\Tree3.h" />
+    <ClInclude Include="Object\FieldObj\Tree4.h" />
+    <ClInclude Include="Object\FieldObj\Tree5.h" />
+    <ClInclude Include="Object\FieldObj\Tree6.h" />
+    <ClInclude Include="Object\FieldObj\Tree7.h" />
+    <ClInclude Include="Object\FieldObj\Tree8.h" />
+    <ClInclude Include="Object\FieldObj\Tree9.h" />
+    <ClInclude Include="Object\FieldObj\Vine.h" />
+    <ClInclude Include="Object\FieldObj\Vine2.h" />
+    <ClInclude Include="Object\FieldObj\Vine3.h" />
+    <ClInclude Include="Object\FieldObj\Vine4.h" />
+    <ClInclude Include="Object\FieldObj\Vine5.h" />
+    <ClInclude Include="Object\FieldObj\Wreck1.h" />
+    <ClInclude Include="Object\FSM.h" />
+    <ClInclude Include="Object\LandScape\LandScapeObj.h" />
+    <ClInclude Include="Object\Monster\Anjanath.h" />
+    <ClInclude Include="Object\Monster\AnjanathAnimation.h" />
+    <ClInclude Include="Object\Monster\Barnos.h" />
+    <ClInclude Include="Object\Monster\BarnosAnimation.h" />
+    <ClInclude Include="Object\Monster\Jagras.h" />
+    <ClInclude Include="Object\Monster\JagrasAnimation.h" />
+    <ClInclude Include="Object\Monster\Kestodon.h" />
+    <ClInclude Include="Object\Monster\KestodonAnimation.h" />
+    <ClInclude Include="Object\Monster\Monster.h" />
+    <ClInclude Include="Object\Monster\Rathalos.h" />
+    <ClInclude Include="Object\Monster\RathalosAnimation.h" />
+    <ClInclude Include="Object\Monster\Vespoid.h" />
+    <ClInclude Include="Object\Monster\VespoidAnimation.h" />
+    <ClInclude Include="Object\Player\Player.h" />
+    <ClInclude Include="Object\Player\PlayerAnimation.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Scene\EditorScene.h" />
+    <ClInclude Include="Window\AboutWindow.h" />
+    <ClInclude Include="Window\InfoWindow.h" />
+    <ClInclude Include="Window\ObjectWindow.h" />
+    <ClInclude Include="Window\HierarchyWindow.h" />
+    <ClInclude Include="Window\SceneWindow.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Editor.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

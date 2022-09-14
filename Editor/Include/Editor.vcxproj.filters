@@ -1,0 +1,1074 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="02. Scene">
+      <UniqueIdentifier>{82e46a67-4ecc-404c-b361-3b0b7a3b658e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scene\01. LoadMesh">
+      <UniqueIdentifier>{23ef7b4e-cfe2-40ef-823b-f5d8e3169e80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Window">
+      <UniqueIdentifier>{e55fe2d6-975f-4dfb-885f-745bffbf5be5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Object">
+      <UniqueIdentifier>{586eeea5-49b1-414a-9039-3be9762c9154}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Object\02. LandScape">
+      <UniqueIdentifier>{8a76542b-8f9c-4f05-b2c6-ec54649b739a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Object\03. Camera">
+      <UniqueIdentifier>{e0841d03-a79c-4244-a1a8-efdb2feb7696}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Object\01. Character">
+      <UniqueIdentifier>{5786a78f-379b-4914-a2a8-1d0a68d5ff08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Object\01. Character\01. Player">
+      <UniqueIdentifier>{5ae7767a-4685-4d1c-810a-f80a81a49eae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Object\01. Character\02. Monster">
+      <UniqueIdentifier>{ad7eb208-edbf-4c25-9693-0905b587dfb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Object\01. Character\02. Monster\01. Barnos">
+      <UniqueIdentifier>{4e8bbfcd-a486-4469-a65f-4d0949001918}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Object\01. Character\02. Monster\02. Jagras">
+      <UniqueIdentifier>{c0227366-6d77-48b6-95be-0efdde81b717}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Object\01. Character\02. Monster\03. Kestodon">
+      <UniqueIdentifier>{f43d353d-c99a-4fd5-9daa-5010f5cfb21d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Object\01. Character\02. Monster\04. Vespoid">
+      <UniqueIdentifier>{f1e3fe35-910b-420b-847b-1e6f49c11b2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Object\01. Character\03. Boss">
+      <UniqueIdentifier>{51a47ea3-1f6e-4d38-ae40-973ee11498f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Object\01. Character\03. Boss\01. Anjanath">
+      <UniqueIdentifier>{465efdcd-678f-4f57-870a-7a7472384709}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Object\01. Character\03. Boss\02. Rathalos">
+      <UniqueIdentifier>{426e90b9-4286-4649-895d-747c58fe6156}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Object\04. FieldObj">
+      <UniqueIdentifier>{3116a4e8-aa3c-4f66-a0a6-49c45528b23a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Object\04. FieldObj\01. HealFlower">
+      <UniqueIdentifier>{2f51d6eb-7ded-49db-b087-e0024cd4550d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Object\04. FieldObj\02. SmallTree">
+      <UniqueIdentifier>{f2f075ec-de83-4889-a195-9b35e6b58f1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Object\04. FieldObj\03. Tree">
+      <UniqueIdentifier>{2629dfae-2310-4dba-b3ef-a9c803538afb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Object\04. FieldObj\04. BigTree">
+      <UniqueIdentifier>{3bf35a4a-84c9-4a6d-81b8-ce11fe676bde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Object\04. FieldObj\05. BrokenTree">
+      <UniqueIdentifier>{e8f33aaf-0de8-457c-a463-74353bb26cd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Object\04. FieldObj\06. Mushroom">
+      <UniqueIdentifier>{af108266-7a76-4154-a43a-0945d2479998}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Object\04. FieldObj\07. Grass">
+      <UniqueIdentifier>{2d1202eb-958f-408a-8942-39c1f728a3e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Object\04. FieldObj\08. Vine">
+      <UniqueIdentifier>{dc69fc83-1139-4249-abb0-31f352980684}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Object\04. FieldObj\09. Precipice">
+      <UniqueIdentifier>{6e98fe8c-faf7-4dd8-ad40-a1bb8dd56a4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Object\04. FieldObj\10. Sculpture">
+      <UniqueIdentifier>{4fd33c7a-046c-4fa1-8d2d-01aa77214bdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Object\04. FieldObj\11. DesertPebble">
+      <UniqueIdentifier>{da26e4ef-93ed-4f21-a05d-be04d839e9e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Object\04. FieldObj\12. DesertSmallStone">
+      <UniqueIdentifier>{1666b3d8-f09e-4fdf-bbee-6c7f82bde297}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Object\04. FieldObj\13. DesertStone">
+      <UniqueIdentifier>{38320605-2e83-42ba-a382-fa144e3773c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Object\04. FieldObj\14. DesertBigStone">
+      <UniqueIdentifier>{0c6d804d-41c9-40b0-aa70-3bbaca906832}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Object\04. FieldObj\15. DesertRockWall">
+      <UniqueIdentifier>{c2189bb8-cfb5-44be-956d-6f63535ca4f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Object\04. FieldObj\16. DesertStalactite">
+      <UniqueIdentifier>{10b7d8cd-6564-42eb-b7ed-2176aa5b9814}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Object\04. FieldObj\17. DesertStalagmite">
+      <UniqueIdentifier>{a4878012-668c-4b1a-b0fa-141b46d8f092}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Object\01. Character\04. NPC">
+      <UniqueIdentifier>{85667b78-e516-43bc-b4a5-e84bdd63b823}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Object\04. FieldObj\18. Box">
+      <UniqueIdentifier>{8b20a7b1-2cba-4ba4-a302-9910a658c264}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Object\04. FieldObj\19. GrassRock">
+      <UniqueIdentifier>{d5bff7c7-1a97-4e97-a18d-8c4da0384ecc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Object\04. FieldObj\20. SmallGrass">
+      <UniqueIdentifier>{84317376-a842-4a8a-9077-1d17613932f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Object\04. FieldObj\21. SmallStone">
+      <UniqueIdentifier>{ae7fbac0-1a8e-4b93-be01-2c1e044f955e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Object\04. FieldObj\22. Tent">
+      <UniqueIdentifier>{9be8bbed-3443-4d75-9a83-67ca9ade09c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Object\04. FieldObj\23. Wreck">
+      <UniqueIdentifier>{a9acca77-2e57-4cc9-87ea-e66f65c7ac0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Object\04. FieldObj\24. Far">
+      <UniqueIdentifier>{745fc3f6-5cfe-491a-b76e-dd798fc3df27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Object\04. FieldObj\25. Stone">
+      <UniqueIdentifier>{98000ad6-996c-4cab-81cd-abd0e98349fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Object\04. FieldObj\26. SlidingBox">
+      <UniqueIdentifier>{9ca83636-ef61-4029-bcef-50913dfd45f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. EditorManager">
+      <UniqueIdentifier>{10a8e0d9-1e04-48b3-940f-77b37a707aba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Object\04. FieldObj\27. Town">
+      <UniqueIdentifier>{ca7b4b02-8424-4ab2-a53e-9ac2d4c4ed64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Object\04. FieldObj\28. DesertMountain">
+      <UniqueIdentifier>{7f66e737-0991-43ad-8034-859b9870eeb8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Scene\EditorScene.cpp">
+      <Filter>02. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\HierarchyWindow.cpp">
+      <Filter>03. Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\ObjectWindow.cpp">
+      <Filter>03. Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\SceneWindow.cpp">
+      <Filter>03. Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\LandScape\LandScapeObj.cpp">
+      <Filter>04. Object\02. LandScape</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Camera\FlightCamera.cpp">
+      <Filter>04. Object\03. Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Monster\Anjanath.cpp">
+      <Filter>04. Object\01. Character\03. Boss\01. Anjanath</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Monster\AnjanathAnimation.cpp">
+      <Filter>04. Object\01. Character\03. Boss\01. Anjanath</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Player\Player.cpp">
+      <Filter>04. Object\01. Character\01. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Player\PlayerAnimation.cpp">
+      <Filter>04. Object\01. Character\01. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\EditorScene_LandScape.cpp">
+      <Filter>02. Scene\01. LoadMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\EditorScene_Player.cpp">
+      <Filter>02. Scene\01. LoadMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\EditorScene_Monster.cpp">
+      <Filter>02. Scene\01. LoadMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\EditorScene_FieldObj.cpp">
+      <Filter>02. Scene\01. LoadMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\AboutWindow.cpp">
+      <Filter>03. Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Monster\Vespoid.cpp">
+      <Filter>04. Object\01. Character\02. Monster\04. Vespoid</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Monster\VespoidAnimation.cpp">
+      <Filter>04. Object\01. Character\02. Monster\04. Vespoid</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Monster\Barnos.cpp">
+      <Filter>04. Object\01. Character\02. Monster\01. Barnos</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Monster\BarnosAnimation.cpp">
+      <Filter>04. Object\01. Character\02. Monster\01. Barnos</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Monster\Jagras.cpp">
+      <Filter>04. Object\01. Character\02. Monster\02. Jagras</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Monster\JagrasAnimation.cpp">
+      <Filter>04. Object\01. Character\02. Monster\02. Jagras</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Monster\Kestodon.cpp">
+      <Filter>04. Object\01. Character\02. Monster\03. Kestodon</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Monster\KestodonAnimation.cpp">
+      <Filter>04. Object\01. Character\02. Monster\03. Kestodon</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Monster\Monster.cpp">
+      <Filter>04. Object\01. Character\02. Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\InfoWindow.cpp">
+      <Filter>03. Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Monster\Rathalos.cpp">
+      <Filter>04. Object\01. Character\03. Boss\02. Rathalos</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Monster\RathalosAnimation.cpp">
+      <Filter>04. Object\01. Character\03. Boss\02. Rathalos</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorManager.cpp">
+      <Filter>01. EditorManager</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Object\FieldObj\HealFlower.cpp">
+      <Filter>04. Object\04. FieldObj\01. HealFlower</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\Tree1.cpp">
+      <Filter>04. Object\04. FieldObj\03. Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\Tree2.cpp">
+      <Filter>04. Object\04. FieldObj\03. Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\Tree3.cpp">
+      <Filter>04. Object\04. FieldObj\03. Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\Tree4.cpp">
+      <Filter>04. Object\04. FieldObj\03. Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\SmallTree1.cpp">
+      <Filter>04. Object\04. FieldObj\02. SmallTree</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\SmallTree2.cpp">
+      <Filter>04. Object\04. FieldObj\02. SmallTree</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\MushRoom1.cpp">
+      <Filter>04. Object\04. FieldObj\06. Mushroom</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\MushRoom2.cpp">
+      <Filter>04. Object\04. FieldObj\06. Mushroom</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\Tree5.cpp">
+      <Filter>04. Object\04. FieldObj\03. Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\Tree6.cpp">
+      <Filter>04. Object\04. FieldObj\03. Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\Tree7.cpp">
+      <Filter>04. Object\04. FieldObj\03. Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\BigTree.cpp">
+      <Filter>04. Object\04. FieldObj\04. BigTree</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\BrokenTree1.cpp">
+      <Filter>04. Object\04. FieldObj\05. BrokenTree</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\BrokenTree2.cpp">
+      <Filter>04. Object\04. FieldObj\05. BrokenTree</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\Grass1.cpp">
+      <Filter>04. Object\04. FieldObj\07. Grass</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\Grass2.cpp">
+      <Filter>04. Object\04. FieldObj\07. Grass</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\Grass3.cpp">
+      <Filter>04. Object\04. FieldObj\07. Grass</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\Vine.cpp">
+      <Filter>04. Object\04. FieldObj\08. Vine</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\Precipice.cpp">
+      <Filter>04. Object\04. FieldObj\09. Precipice</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\Sculpture.cpp">
+      <Filter>04. Object\04. FieldObj\10. Sculpture</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\DesertPebble.cpp">
+      <Filter>04. Object\04. FieldObj\11. DesertPebble</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\DesertSmallStone.cpp">
+      <Filter>04. Object\04. FieldObj\12. DesertSmallStone</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\DesertStone1.cpp">
+      <Filter>04. Object\04. FieldObj\13. DesertStone</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\DesertStone2.cpp">
+      <Filter>04. Object\04. FieldObj\13. DesertStone</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\DesertStone3.cpp">
+      <Filter>04. Object\04. FieldObj\13. DesertStone</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\DesertStone4.cpp">
+      <Filter>04. Object\04. FieldObj\13. DesertStone</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\DesertStone5.cpp">
+      <Filter>04. Object\04. FieldObj\13. DesertStone</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\DesertStone6.cpp">
+      <Filter>04. Object\04. FieldObj\13. DesertStone</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\DesertBigStone.cpp">
+      <Filter>04. Object\04. FieldObj\14. DesertBigStone</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\DesertRockWall.cpp">
+      <Filter>04. Object\04. FieldObj\15. DesertRockWall</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\DesertStalactite1.cpp">
+      <Filter>04. Object\04. FieldObj\16. DesertStalactite</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\DesertStalactite2.cpp">
+      <Filter>04. Object\04. FieldObj\16. DesertStalactite</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\DesertStalactite3.cpp">
+      <Filter>04. Object\04. FieldObj\16. DesertStalactite</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\DesertStalactite4.cpp">
+      <Filter>04. Object\04. FieldObj\16. DesertStalactite</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\DesertStalagmite1.cpp">
+      <Filter>04. Object\04. FieldObj\17. DesertStalagmite</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\DesertStalagmite2.cpp">
+      <Filter>04. Object\04. FieldObj\17. DesertStalagmite</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\DesertStalagmite3.cpp">
+      <Filter>04. Object\04. FieldObj\17. DesertStalagmite</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\EditorScene_FBX.cpp">
+      <Filter>02. Scene\01. LoadMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\Grass4.cpp">
+      <Filter>04. Object\04. FieldObj\07. Grass</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\Grass5.cpp">
+      <Filter>04. Object\04. FieldObj\07. Grass</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\MushRoom3.cpp">
+      <Filter>04. Object\04. FieldObj\06. Mushroom</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\Vine2.cpp">
+      <Filter>04. Object\04. FieldObj\08. Vine</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\Vine3.cpp">
+      <Filter>04. Object\04. FieldObj\08. Vine</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\Vine4.cpp">
+      <Filter>04. Object\04. FieldObj\08. Vine</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\Precipice2.cpp">
+      <Filter>04. Object\04. FieldObj\09. Precipice</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\SmallTree5.cpp">
+      <Filter>04. Object\04. FieldObj\02. SmallTree</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\SmallTree3.cpp">
+      <Filter>04. Object\04. FieldObj\02. SmallTree</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\SmallTree4.cpp">
+      <Filter>04. Object\04. FieldObj\02. SmallTree</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\Tree8.cpp">
+      <Filter>04. Object\04. FieldObj\03. Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\Tree9.cpp">
+      <Filter>04. Object\04. FieldObj\03. Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\BrokenTree3.cpp">
+      <Filter>04. Object\04. FieldObj\05. BrokenTree</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\Grass6.cpp">
+      <Filter>04. Object\04. FieldObj\07. Grass</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\Grass7.cpp">
+      <Filter>04. Object\04. FieldObj\07. Grass</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\Grass8.cpp">
+      <Filter>04. Object\04. FieldObj\07. Grass</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\Grass9.cpp">
+      <Filter>04. Object\04. FieldObj\07. Grass</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\Vine5.cpp">
+      <Filter>04. Object\04. FieldObj\08. Vine</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\Box1.cpp">
+      <Filter>04. Object\04. FieldObj\18. Box</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\GrassRock1.cpp">
+      <Filter>04. Object\04. FieldObj\19. GrassRock</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\GrassRock2.cpp">
+      <Filter>04. Object\04. FieldObj\19. GrassRock</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\GrassRock3.cpp">
+      <Filter>04. Object\04. FieldObj\19. GrassRock</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\GrassRock4.cpp">
+      <Filter>04. Object\04. FieldObj\19. GrassRock</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\GrassRock5.cpp">
+      <Filter>04. Object\04. FieldObj\19. GrassRock</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\GrassRock6.cpp">
+      <Filter>04. Object\04. FieldObj\19. GrassRock</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\GrassRock7.cpp">
+      <Filter>04. Object\04. FieldObj\19. GrassRock</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\GrassRock8.cpp">
+      <Filter>04. Object\04. FieldObj\19. GrassRock</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\GrassRock9.cpp">
+      <Filter>04. Object\04. FieldObj\19. GrassRock</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\SmallGrass.cpp">
+      <Filter>04. Object\04. FieldObj\20. SmallGrass</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\SmallStone1.cpp">
+      <Filter>04. Object\04. FieldObj\21. SmallStone</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\Tent1.cpp">
+      <Filter>04. Object\04. FieldObj\22. Tent</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\Tent2.cpp">
+      <Filter>04. Object\04. FieldObj\22. Tent</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\Wreck1.cpp">
+      <Filter>04. Object\04. FieldObj\23. Wreck</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\Far.cpp">
+      <Filter>04. Object\04. FieldObj\24. Far</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\Stonej1.cpp">
+      <Filter>04. Object\04. FieldObj\25. Stone</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\Stonej2.cpp">
+      <Filter>04. Object\04. FieldObj\25. Stone</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\Stonej3.cpp">
+      <Filter>04. Object\04. FieldObj\25. Stone</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\Stonej4.cpp">
+      <Filter>04. Object\04. FieldObj\25. Stone</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\Stonej5.cpp">
+      <Filter>04. Object\04. FieldObj\25. Stone</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\Stonej6.cpp">
+      <Filter>04. Object\04. FieldObj\25. Stone</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\Stonej7.cpp">
+      <Filter>04. Object\04. FieldObj\25. Stone</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\Stonej8.cpp">
+      <Filter>04. Object\04. FieldObj\25. Stone</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\Stonej9.cpp">
+      <Filter>04. Object\04. FieldObj\25. Stone</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\Stonej10.cpp">
+      <Filter>04. Object\04. FieldObj\25. Stone</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\Stonej11.cpp">
+      <Filter>04. Object\04. FieldObj\25. Stone</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\Stonej12.cpp">
+      <Filter>04. Object\04. FieldObj\25. Stone</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\Stonej13.cpp">
+      <Filter>04. Object\04. FieldObj\25. Stone</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\Stonej14.cpp">
+      <Filter>04. Object\04. FieldObj\25. Stone</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\Stonej15.cpp">
+      <Filter>04. Object\04. FieldObj\25. Stone</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\Stonej16.cpp">
+      <Filter>04. Object\04. FieldObj\25. Stone</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\Stonej17.cpp">
+      <Filter>04. Object\04. FieldObj\25. Stone</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\Stonej18.cpp">
+      <Filter>04. Object\04. FieldObj\25. Stone</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\Stonej19.cpp">
+      <Filter>04. Object\04. FieldObj\25. Stone</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\Stonej20.cpp">
+      <Filter>04. Object\04. FieldObj\25. Stone</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\Stonej21.cpp">
+      <Filter>04. Object\04. FieldObj\25. Stone</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\Stonej22.cpp">
+      <Filter>04. Object\04. FieldObj\25. Stone</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\Stonej23.cpp">
+      <Filter>04. Object\04. FieldObj\25. Stone</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\Stonej24.cpp">
+      <Filter>04. Object\04. FieldObj\25. Stone</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\Stonej25.cpp">
+      <Filter>04. Object\04. FieldObj\25. Stone</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\Stonej26.cpp">
+      <Filter>04. Object\04. FieldObj\25. Stone</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\Stonej27.cpp">
+      <Filter>04. Object\04. FieldObj\25. Stone</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\Stonej28.cpp">
+      <Filter>04. Object\04. FieldObj\25. Stone</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\Stonej29.cpp">
+      <Filter>04. Object\04. FieldObj\25. Stone</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\Stonej30.cpp">
+      <Filter>04. Object\04. FieldObj\25. Stone</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\Stonej31.cpp">
+      <Filter>04. Object\04. FieldObj\25. Stone</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\Stonej32.cpp">
+      <Filter>04. Object\04. FieldObj\25. Stone</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\Stonej33.cpp">
+      <Filter>04. Object\04. FieldObj\25. Stone</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\Stonej34.cpp">
+      <Filter>04. Object\04. FieldObj\25. Stone</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\Stonej35.cpp">
+      <Filter>04. Object\04. FieldObj\25. Stone</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\Stonej36.cpp">
+      <Filter>04. Object\04. FieldObj\25. Stone</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\Stonej37.cpp">
+      <Filter>04. Object\04. FieldObj\25. Stone</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\SlidingBox.cpp">
+      <Filter>04. Object\04. FieldObj\26. SlidingBox</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\TownBarrel.cpp">
+      <Filter>04. Object\04. FieldObj\27. Town</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\TownCarriage.cpp">
+      <Filter>04. Object\04. FieldObj\27. Town</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\TownCheckPoint.cpp">
+      <Filter>04. Object\04. FieldObj\27. Town</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\TownDragonHead.cpp">
+      <Filter>04. Object\04. FieldObj\27. Town</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\TownPassage.cpp">
+      <Filter>04. Object\04. FieldObj\27. Town</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\TownPumpkinMan.cpp">
+      <Filter>04. Object\04. FieldObj\27. Town</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\TownRampart.cpp">
+      <Filter>04. Object\04. FieldObj\27. Town</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\TownShadeScreen.cpp">
+      <Filter>04. Object\04. FieldObj\27. Town</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\TownSign.cpp">
+      <Filter>04. Object\04. FieldObj\27. Town</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\TownStructure.cpp">
+      <Filter>04. Object\04. FieldObj\27. Town</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\TownSummerHouse.cpp">
+      <Filter>04. Object\04. FieldObj\27. Town</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\TownTunnel.cpp">
+      <Filter>04. Object\04. FieldObj\27. Town</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\DesertMountain1.cpp">
+      <Filter>04. Object\04. FieldObj\28. DesertMountain</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FieldObj\DesertMountain2.cpp">
+      <Filter>04. Object\04. FieldObj\28. DesertMountain</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Scene\EditorScene.h">
+      <Filter>02. Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>리소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\HierarchyWindow.h">
+      <Filter>03. Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\ObjectWindow.h">
+      <Filter>03. Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\SceneWindow.h">
+      <Filter>03. Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\LandScape\LandScapeObj.h">
+      <Filter>04. Object\02. LandScape</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Camera\FlightCamera.h">
+      <Filter>04. Object\03. Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Monster\AnjanathAnimation.h">
+      <Filter>04. Object\01. Character\03. Boss\01. Anjanath</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Monster\Anjanath.h">
+      <Filter>04. Object\01. Character\03. Boss\01. Anjanath</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Player\PlayerAnimation.h">
+      <Filter>04. Object\01. Character\01. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Player\Player.h">
+      <Filter>04. Object\01. Character\01. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FSM.h">
+      <Filter>04. Object\01. Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\AboutWindow.h">
+      <Filter>03. Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Monster\Vespoid.h">
+      <Filter>04. Object\01. Character\02. Monster\04. Vespoid</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Monster\VespoidAnimation.h">
+      <Filter>04. Object\01. Character\02. Monster\04. Vespoid</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Monster\Barnos.h">
+      <Filter>04. Object\01. Character\02. Monster\01. Barnos</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Monster\BarnosAnimation.h">
+      <Filter>04. Object\01. Character\02. Monster\01. Barnos</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Monster\Jagras.h">
+      <Filter>04. Object\01. Character\02. Monster\02. Jagras</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Monster\JagrasAnimation.h">
+      <Filter>04. Object\01. Character\02. Monster\02. Jagras</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Monster\Kestodon.h">
+      <Filter>04. Object\01. Character\02. Monster\03. Kestodon</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Monster\KestodonAnimation.h">
+      <Filter>04. Object\01. Character\02. Monster\03. Kestodon</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Monster\Monster.h">
+      <Filter>04. Object\01. Character\02. Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\InfoWindow.h">
+      <Filter>03. Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Monster\RathalosAnimation.h">
+      <Filter>04. Object\01. Character\03. Boss\02. Rathalos</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Monster\Rathalos.h">
+      <Filter>04. Object\01. Character\03. Boss\02. Rathalos</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorManager.h">
+      <Filter>01. EditorManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\HealFlower.h">
+      <Filter>04. Object\04. FieldObj\01. HealFlower</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\Tree1.h">
+      <Filter>04. Object\04. FieldObj\03. Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\Tree2.h">
+      <Filter>04. Object\04. FieldObj\03. Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\Tree3.h">
+      <Filter>04. Object\04. FieldObj\03. Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\Tree4.h">
+      <Filter>04. Object\04. FieldObj\03. Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\SmallTree1.h">
+      <Filter>04. Object\04. FieldObj\02. SmallTree</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\SmallTree2.h">
+      <Filter>04. Object\04. FieldObj\02. SmallTree</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\MushRoom1.h">
+      <Filter>04. Object\04. FieldObj\06. Mushroom</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\MushRoom2.h">
+      <Filter>04. Object\04. FieldObj\06. Mushroom</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\Tree5.h">
+      <Filter>04. Object\04. FieldObj\03. Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\Tree6.h">
+      <Filter>04. Object\04. FieldObj\03. Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\Tree7.h">
+      <Filter>04. Object\04. FieldObj\03. Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\BigTree.h">
+      <Filter>04. Object\04. FieldObj\04. BigTree</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\BrokenTree2.h">
+      <Filter>04. Object\04. FieldObj\05. BrokenTree</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\BrokenTree1.h">
+      <Filter>04. Object\04. FieldObj\05. BrokenTree</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\Grass1.h">
+      <Filter>04. Object\04. FieldObj\07. Grass</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\Grass2.h">
+      <Filter>04. Object\04. FieldObj\07. Grass</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\Grass3.h">
+      <Filter>04. Object\04. FieldObj\07. Grass</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\Vine.h">
+      <Filter>04. Object\04. FieldObj\08. Vine</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\Precipice.h">
+      <Filter>04. Object\04. FieldObj\09. Precipice</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\Sculpture.h">
+      <Filter>04. Object\04. FieldObj\10. Sculpture</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\DesertPebble.h">
+      <Filter>04. Object\04. FieldObj\11. DesertPebble</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\DesertSmallStone.h">
+      <Filter>04. Object\04. FieldObj\12. DesertSmallStone</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\DesertStone1.h">
+      <Filter>04. Object\04. FieldObj\13. DesertStone</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\DesertStone2.h">
+      <Filter>04. Object\04. FieldObj\13. DesertStone</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\DesertStone3.h">
+      <Filter>04. Object\04. FieldObj\13. DesertStone</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\DesertStone4.h">
+      <Filter>04. Object\04. FieldObj\13. DesertStone</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\DesertStone5.h">
+      <Filter>04. Object\04. FieldObj\13. DesertStone</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\DesertStone6.h">
+      <Filter>04. Object\04. FieldObj\13. DesertStone</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\DesertBigStone.h">
+      <Filter>04. Object\04. FieldObj\14. DesertBigStone</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\DesertRockWall.h">
+      <Filter>04. Object\04. FieldObj\15. DesertRockWall</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\DesertStalactite4.h">
+      <Filter>04. Object\04. FieldObj\16. DesertStalactite</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\DesertStalactite1.h">
+      <Filter>04. Object\04. FieldObj\16. DesertStalactite</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\DesertStalactite2.h">
+      <Filter>04. Object\04. FieldObj\16. DesertStalactite</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\DesertStalactite3.h">
+      <Filter>04. Object\04. FieldObj\16. DesertStalactite</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\DesertStalagmite1.h">
+      <Filter>04. Object\04. FieldObj\17. DesertStalagmite</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\DesertStalagmite2.h">
+      <Filter>04. Object\04. FieldObj\17. DesertStalagmite</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\DesertStalagmite3.h">
+      <Filter>04. Object\04. FieldObj\17. DesertStalagmite</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\Grass4.h">
+      <Filter>04. Object\04. FieldObj\07. Grass</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\Grass5.h">
+      <Filter>04. Object\04. FieldObj\07. Grass</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\MushRoom3.h">
+      <Filter>04. Object\04. FieldObj\06. Mushroom</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\Vine2.h">
+      <Filter>04. Object\04. FieldObj\08. Vine</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\Vine3.h">
+      <Filter>04. Object\04. FieldObj\08. Vine</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\Vine4.h">
+      <Filter>04. Object\04. FieldObj\08. Vine</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\Precipice2.h">
+      <Filter>04. Object\04. FieldObj\09. Precipice</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\SmallTree5.h">
+      <Filter>04. Object\04. FieldObj\02. SmallTree</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\SmallTree3.h">
+      <Filter>04. Object\04. FieldObj\02. SmallTree</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\SmallTree4.h">
+      <Filter>04. Object\04. FieldObj\02. SmallTree</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\Tree9.h">
+      <Filter>04. Object\04. FieldObj\03. Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\Tree8.h">
+      <Filter>04. Object\04. FieldObj\03. Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\BrokenTree3.h">
+      <Filter>04. Object\04. FieldObj\05. BrokenTree</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\Grass6.h">
+      <Filter>04. Object\04. FieldObj\07. Grass</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\Grass7.h">
+      <Filter>04. Object\04. FieldObj\07. Grass</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\Grass8.h">
+      <Filter>04. Object\04. FieldObj\07. Grass</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\Grass9.h">
+      <Filter>04. Object\04. FieldObj\07. Grass</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\Vine5.h">
+      <Filter>04. Object\04. FieldObj\08. Vine</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\Box1.h">
+      <Filter>04. Object\04. FieldObj\18. Box</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\GrassRock9.h">
+      <Filter>04. Object\04. FieldObj\19. GrassRock</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\GrassRock1.h">
+      <Filter>04. Object\04. FieldObj\19. GrassRock</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\GrassRock2.h">
+      <Filter>04. Object\04. FieldObj\19. GrassRock</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\GrassRock3.h">
+      <Filter>04. Object\04. FieldObj\19. GrassRock</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\GrassRock4.h">
+      <Filter>04. Object\04. FieldObj\19. GrassRock</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\GrassRock5.h">
+      <Filter>04. Object\04. FieldObj\19. GrassRock</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\GrassRock6.h">
+      <Filter>04. Object\04. FieldObj\19. GrassRock</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\GrassRock7.h">
+      <Filter>04. Object\04. FieldObj\19. GrassRock</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\GrassRock8.h">
+      <Filter>04. Object\04. FieldObj\19. GrassRock</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\SmallGrass.h">
+      <Filter>04. Object\04. FieldObj\20. SmallGrass</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\SmallStone1.h">
+      <Filter>04. Object\04. FieldObj\21. SmallStone</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\Tent2.h">
+      <Filter>04. Object\04. FieldObj\22. Tent</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\Tent1.h">
+      <Filter>04. Object\04. FieldObj\22. Tent</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\Wreck1.h">
+      <Filter>04. Object\04. FieldObj\23. Wreck</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\Far.h">
+      <Filter>04. Object\04. FieldObj\24. Far</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\Stonej1.h">
+      <Filter>04. Object\04. FieldObj\25. Stone</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\Stonej2.h">
+      <Filter>04. Object\04. FieldObj\25. Stone</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\Stonej3.h">
+      <Filter>04. Object\04. FieldObj\25. Stone</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\Stonej4.h">
+      <Filter>04. Object\04. FieldObj\25. Stone</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\Stonej5.h">
+      <Filter>04. Object\04. FieldObj\25. Stone</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\Stonej6.h">
+      <Filter>04. Object\04. FieldObj\25. Stone</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\Stonej7.h">
+      <Filter>04. Object\04. FieldObj\25. Stone</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\Stonej8.h">
+      <Filter>04. Object\04. FieldObj\25. Stone</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\Stonej9.h">
+      <Filter>04. Object\04. FieldObj\25. Stone</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\Stonej10.h">
+      <Filter>04. Object\04. FieldObj\25. Stone</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\Stonej11.h">
+      <Filter>04. Object\04. FieldObj\25. Stone</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\Stonej12.h">
+      <Filter>04. Object\04. FieldObj\25. Stone</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\Stonej13.h">
+      <Filter>04. Object\04. FieldObj\25. Stone</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\Stonej14.h">
+      <Filter>04. Object\04. FieldObj\25. Stone</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\Stonej15.h">
+      <Filter>04. Object\04. FieldObj\25. Stone</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\Stonej16.h">
+      <Filter>04. Object\04. FieldObj\25. Stone</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\Stonej17.h">
+      <Filter>04. Object\04. FieldObj\25. Stone</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\Stonej18.h">
+      <Filter>04. Object\04. FieldObj\25. Stone</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\Stonej19.h">
+      <Filter>04. Object\04. FieldObj\25. Stone</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\Stonej20.h">
+      <Filter>04. Object\04. FieldObj\25. Stone</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\Stonej21.h">
+      <Filter>04. Object\04. FieldObj\25. Stone</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\Stonej22.h">
+      <Filter>04. Object\04. FieldObj\25. Stone</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\Stonej23.h">
+      <Filter>04. Object\04. FieldObj\25. Stone</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\Stonej24.h">
+      <Filter>04. Object\04. FieldObj\25. Stone</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\Stonej25.h">
+      <Filter>04. Object\04. FieldObj\25. Stone</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\Stonej26.h">
+      <Filter>04. Object\04. FieldObj\25. Stone</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\Stonej27.h">
+      <Filter>04. Object\04. FieldObj\25. Stone</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\Stonej28.h">
+      <Filter>04. Object\04. FieldObj\25. Stone</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\Stonej29.h">
+      <Filter>04. Object\04. FieldObj\25. Stone</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\Stonej30.h">
+      <Filter>04. Object\04. FieldObj\25. Stone</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\Stonej31.h">
+      <Filter>04. Object\04. FieldObj\25. Stone</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\Stonej32.h">
+      <Filter>04. Object\04. FieldObj\25. Stone</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\Stonej33.h">
+      <Filter>04. Object\04. FieldObj\25. Stone</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\Stonej34.h">
+      <Filter>04. Object\04. FieldObj\25. Stone</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\Stonej35.h">
+      <Filter>04. Object\04. FieldObj\25. Stone</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\Stonej36.h">
+      <Filter>04. Object\04. FieldObj\25. Stone</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\Stonej37.h">
+      <Filter>04. Object\04. FieldObj\25. Stone</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\SlidingBox.h">
+      <Filter>04. Object\04. FieldObj\26. SlidingBox</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\TownTunnel.h">
+      <Filter>04. Object\04. FieldObj\27. Town</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\TownBarrel.h">
+      <Filter>04. Object\04. FieldObj\27. Town</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\TownCarriage.h">
+      <Filter>04. Object\04. FieldObj\27. Town</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\TownCheckPoint.h">
+      <Filter>04. Object\04. FieldObj\27. Town</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\TownDragonHead.h">
+      <Filter>04. Object\04. FieldObj\27. Town</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\TownPassage.h">
+      <Filter>04. Object\04. FieldObj\27. Town</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\TownPumpkinMan.h">
+      <Filter>04. Object\04. FieldObj\27. Town</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\TownRampart.h">
+      <Filter>04. Object\04. FieldObj\27. Town</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\TownShadeScreen.h">
+      <Filter>04. Object\04. FieldObj\27. Town</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\TownSign.h">
+      <Filter>04. Object\04. FieldObj\27. Town</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\TownStructure.h">
+      <Filter>04. Object\04. FieldObj\27. Town</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\TownSummerHouse.h">
+      <Filter>04. Object\04. FieldObj\27. Town</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\DesertMountain1.h">
+      <Filter>04. Object\04. FieldObj\28. DesertMountain</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FieldObj\DesertMountain2.h">
+      <Filter>04. Object\04. FieldObj\28. DesertMountain</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Editor.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
