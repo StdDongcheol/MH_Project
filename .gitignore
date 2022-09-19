@@ -364,7 +364,6 @@ FodyWeavers.xsd
 
 Editor/Bin
 Engine
-GameEngine/Bin
 GameEngine/BinObj
 Client3D/Bin
 Client3D/BinObj
