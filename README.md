@@ -1,3 +1,8 @@
+# MH Project
+<p align="center">
+ <img src = "./MHTitle.png">
+</p>
+
 # Introduce
 #### 개요
 * 캡콤에서 개발한 액션 어드벤쳐 게임 ‘몬스터헌터 : 월드’를 DirectX 3D로 모작합니다.
@@ -6,3 +11,9 @@
 
 ## Timeline
 * Notion으로 팀원과 개발 일정을 공유하면서 작업을 진행하였습니다.
+<p align="center">
+ <img src = "image1.png">
+</p>
+
+## Gameplay
+[![Video Label](http://img.youtube.com/vi/8rULZAka800/0.jpg)](https://youtu.be/8rULZAka800?t=0s)
